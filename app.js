@@ -13,6 +13,7 @@ const linksContainer = document.querySelector(".links-container");
 const links = document.querySelector(".links");
 
 navToggle.addEventListener("click", function () {
+  // show-links has a hard coded height for the menu
   linksContainer.classList.toggle("show-links");
 });
 
